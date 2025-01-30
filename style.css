@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+
+}
+
+body {
+    background-color: black;
+    color: azure;
+    overflow-x: hidden;
+    /* overflow-y: ; */
+}
+
+.upper {
+
+    display: flex;
+    color: antiquewhite;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.upper ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.upper ul a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+h1 {
+    margin: 4px;
+    color: red;
+}
+
+.navigationbar {
+    margin: 1px;
+    display: flex;
+    width: 99vw;
+    justify-content: space-between;
+    background-color: black;
+
+}
+
+nav ul {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+
+
+}
+
+nav ul li {
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+
+}
+
+.trend {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: large;
+}
+
+.trend p{
+    margin: 7.5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+
+
+.profile img {
+    display: flex;
+    width: 2vw;
+    height: 4vh;
+    border-radius: 100%;
+    /* align-items: center;
+justify-content: center; */
+}
+
+
+.mid {
+    height: 69vh;
+    background-image: url(venti-views-lI7dlA5VBp8-unsplash.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.lower {
+    /* height: 20vh; */
+    display: flex;
+    background-color: black;
+    display: flex;
+    overflow-y:visible;
+    overflow-x:scroll;
+    
+}
+
+.lower img {
+    display: flex;
+    padding: 5px;
+    border-radius: 15px;
+    border: 2px solid black;
+    width: 25vw;
+    height: 400px;
+    display: flex;
+    
+}
+.con
