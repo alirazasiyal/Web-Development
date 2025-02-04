@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            
+        }
+        .main{
+            height: 200px;
+            width: 200px;
+            border: 3px solid black;
+            border-radius: 20px;
+            position: relative;
+            transition: all 1s;
+            transform-style: preserve-3d;
+        }
+        .cardface{
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            backface-visibility: hidden;
+
+
+        }
+        .main:hover{
+            transform:rotate(360deg);
+
+        }
+        .back{
+            transform: rotateY(180deg);
+            background-color: rgb(156, 115, 62);
+            color: rgb(0, 0, 0);
+            border-radius: 20px;
+        }
+        .front{
+            background-color: rgb(58, 158, 158);
+            color: rgb(1, 2, 2);
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="front cardface">Hovr to disclose</div>
+        <div class="back cardface">Hey THere</div>
+        
+    </div>
+</body>
+</html>
